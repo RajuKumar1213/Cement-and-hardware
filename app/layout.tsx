@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google"; // Using Inter for a clean, premium look
 import "./globals.css";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 import WhatsAppButton from "./components/WhatsAppButton";
 
 const inter = Inter({
@@ -10,7 +11,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Hardware and Shankar Cement Center",
+  title: "Maa Enterprises - Hardware and Shankar Cement Center",
   description: "Premium quality cement, hardware, and construction materials.",
 };
 
@@ -22,10 +23,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.variable} font-sans antialiased bg-white`}
+        className={`${inter.variable} font-sans antialiased bg-white flex flex-col min-h-screen`}
       >
         <Navbar />
-        {children}
+        <main className="flex-grow">
+            {children}
+        </main>
+        <Footer />
         <WhatsAppButton />
       </body>
     </html>

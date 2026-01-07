@@ -12,24 +12,24 @@ export default function Navbar() {
                 <div className="flex justify-between h-20 items-center">
                     {/* Logo */}
                     <div className="flex-shrink-0 flex items-center">
-                        <Link href="/" className="text-2xl font-bold text-zinc-900 tracking-tighter">
-                            Hardware<span className="text-orange-600"> & </span>Cement
+                        <Link href="/" className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent tracking-tighter hover:scale-105 transition-transform">
+                            Maa<span className="text-orange-600"> Enterprises</span>
                         </Link>
                     </div>
 
                     {/* Desktop Menu */}
                     <div className="hidden md:block">
                         <div className="ml-10 flex items-baseline space-x-8">
-                            <Link href="/" className="text-zinc-600 hover:text-orange-600 px-3 py-2 rounded-md text-sm font-medium transition-colors">
+                            <Link href="/" className="text-zinc-600 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors">
                                 Home
                             </Link>
-                            <Link href="#about" className="text-zinc-600 hover:text-orange-600 px-3 py-2 rounded-md text-sm font-medium transition-colors">
-                                About
+                            <Link href="/gallery" className="text-zinc-600 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors">
+                                Gallery
                             </Link>
-                            <Link href="#services" className="text-zinc-600 hover:text-orange-600 px-3 py-2 rounded-md text-sm font-medium transition-colors">
-                                Products
+                            <Link href="/about" className="text-zinc-600 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors">
+                                About Us
                             </Link>
-                            <Link href="#contact" className="bg-zinc-900 text-white hover:bg-orange-600 px-4 py-2 rounded-full text-sm font-medium transition-colors">
+                            <Link href="/#contact" className="bg-zinc-900 text-white hover:bg-orange-600 px-4 py-2 rounded-full text-sm font-medium transition-colors">
                                 Contact Us
                             </Link>
                         </div>
@@ -66,13 +66,13 @@ export default function Navbar() {
                         <Link href="/" onClick={() => setIsOpen(false)} className="text-zinc-600 hover:text-orange-600 block px-3 py-2 rounded-md text-base font-medium">
                             Home
                         </Link>
-                        <Link href="#about" onClick={() => setIsOpen(false)} className="text-zinc-600 hover:text-orange-600 block px-3 py-2 rounded-md text-base font-medium">
-                            About
+                        <Link href="/gallery" onClick={() => setIsOpen(false)} className="text-zinc-600 hover:text-orange-600 block px-3 py-2 rounded-md text-base font-medium">
+                            Gallery
                         </Link>
-                        <Link href="#services" onClick={() => setIsOpen(false)} className="text-zinc-600 hover:text-orange-600 block px-3 py-2 rounded-md text-base font-medium">
-                            Products
+                        <Link href="/about" onClick={() => setIsOpen(false)} className="text-zinc-600 hover:text-orange-600 block px-3 py-2 rounded-md text-base font-medium">
+                            About Us
                         </Link>
-                        <Link href="#contact" onClick={() => setIsOpen(false)} className="text-zinc-600 hover:text-orange-600 block px-3 py-2 rounded-md text-base font-medium">
+                        <Link href="/#contact" onClick={() => setIsOpen(false)} className="text-zinc-600 hover:text-orange-600 block px-3 py-2 rounded-md text-base font-medium">
                             Contact
                         </Link>
                     </div>

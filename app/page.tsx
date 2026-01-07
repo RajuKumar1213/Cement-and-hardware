@@ -10,10 +10,6 @@ export default function Home() {
       <Services />
       <About />
       <Contact />
-      {/* Footer can be a simple component or inline here for now */}
-      <footer className="bg-zinc-950 py-8 text-center text-zinc-500 text-sm">
-        <p>© {new Date().getFullYear()} Hardware and Shankar Cement Center. All rights reserved.</p>
-      </footer>
     </main>
   );
 }
