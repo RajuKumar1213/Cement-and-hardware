@@ -27,7 +27,7 @@ export default function Gallery() {
     }));
 
 
-    const hardware = Array.from({ length: 68 }, (_, i) => ({
+    const hardware = Array.from({ length: 46 }, (_, i) => ({
         src: `/images/hardware (${i + 1}).jpeg`,
         alt: `Premium Paint ${i + 1}`,
         title: titles[i % titles.length],
