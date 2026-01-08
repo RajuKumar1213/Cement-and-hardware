@@ -6,9 +6,22 @@ import Link from 'next/link';
 
 const HERO_IMAGES = [
     {
+        src: "/images/slide1.jpeg",
+        alt: "Construction Site",
+    },
+    {
+        src: "/images/slide2.jpeg",
+        alt: "Construction Site",
+    },
+    {
+        src: "/images/slide3.jpeg",
+        alt: "Construction Site",
+    },
+    {
         src: "/images/hero-bg.png",
         alt: "Construction Site",
     },
+
     {
         src: "/images/hero-construction.png",
         alt: "Modern Construction",
@@ -21,7 +34,7 @@ const HERO_IMAGES = [
         src: "/images/p14.jpeg",
         alt: "Cement Warehouse",
     },
-     {
+    {
         src: "/images/owner.jpeg",
         alt: "High Quality Steel",
     }
@@ -101,6 +114,6 @@ export default function Hero() {
                     />
                 ))}
             </div>
-        </section>
+        </section>  
     );
 }

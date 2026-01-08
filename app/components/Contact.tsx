@@ -36,7 +36,7 @@ export default function Contact() {
                                     <span className="text-2xl">✉️</span>
                                     <div>
                                         <p className="font-semibold text-white">Email</p>
-                                        <p className="text-zinc-400">contact@maaenterprises.com</p>
+                                        <p className="text-zinc-400">sir.ranjan@gmail.com</p>
                                     </div>
                                 </div>
                             </div>
@@ -51,13 +51,14 @@ export default function Contact() {
 
                     {/* Form */}
                     <div className="p-10">
-                        <form className="space-y-6">
+                        <form className="space-y-6" action="https://formsubmit.co/sir.ranjan@gmail.com" method="POST">
                             <div>
                                 <label htmlFor="name" className="block text-sm font-medium text-zinc-700 mb-1">Full Name</label>
                                 <input
                                     type="text"
                                     id="name"
-                                    placeholder="John Doe"
+                                    name="name"
+                                    placeholder="Rajiv"
                                     className="w-full rounded-lg border border-zinc-300 px-4 py-3 text-zinc-900 focus:border-orange-500 focus:ring-orange-500 focus:outline-none transition-all"
                                     required
                                 />
@@ -69,6 +70,7 @@ export default function Contact() {
                                     <input
                                         type="tel"
                                         id="phone"
+                                        name="phone"
                                         placeholder="+91 99999..."
                                         className="w-full rounded-lg border border-zinc-300 px-4 py-3 text-zinc-900 focus:border-orange-500 focus:ring-orange-500 focus:outline-none transition-all"
                                         required
@@ -78,6 +80,7 @@ export default function Contact() {
                                     <label htmlFor="item" className="block text-sm font-medium text-zinc-700 mb-1">Item Needed</label>
                                     <select
                                         id="item"
+                                        name="item"
                                         className="w-full rounded-lg border border-zinc-300 px-4 py-3 text-zinc-900 focus:border-orange-500 focus:ring-orange-500 focus:outline-none transition-all"
                                     >
                                         <option>Cement</option>
@@ -93,6 +96,7 @@ export default function Contact() {
                                 <label htmlFor="message" className="block text-sm font-medium text-zinc-700 mb-1">Details / Quantity</label>
                                 <textarea
                                     id="message"
+                                    name="message"
                                     rows={4}
                                     placeholder="e.g., 50 bags of Ambuja Cement..."
                                     className="w-full rounded-lg border border-zinc-300 px-4 py-3 text-zinc-900 focus:border-orange-500 focus:ring-orange-500 focus:outline-none transition-all"

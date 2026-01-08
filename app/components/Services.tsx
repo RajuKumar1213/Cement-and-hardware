@@ -2,7 +2,7 @@ export default function Services() {
     const products = [
         {
             title: "Premium Cement",
-            description: "Ambuja, Shankar, and other top-tier brands available for strong foundations.",
+            description: "Ambuja, Acc, Shree Jungrodhak, Roofon and other top-tier brands available for strong foundations.",
             icon: "🏗️",
         },
         {
@@ -20,7 +20,7 @@ export default function Services() {
             description: "Pipes, fittings, and faucets from reliable manufacturers.",
             icon: "🔧",
         },
-       
+
     ];
 
     return (
