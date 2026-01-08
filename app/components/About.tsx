@@ -10,7 +10,7 @@ export default function About() {
                                 Who We Are
                             </h2>
                             <h3 className="mt-2 text-3xl font-bold leading-8 tracking-tight text-zinc-900 sm:text-4xl">
-                                Hardware and Shankar Cement Center
+                                Maa Enterprises - Hardware and  Cement Center
                             </h3>
                         </div>
 
@@ -28,7 +28,7 @@ export default function About() {
                                     S
                                 </div>
                                 <div>
-                                    <p className="font-semibold text-zinc-900">Shankar Admin</p>
+                                    <p className="font-semibold text-zinc-900">Mr. Rajkumar Ranjan</p>
                                     <p className="text-xs text-zinc-500">Proprietor</p>
                                 </div>
                             </div>

@@ -22,21 +22,21 @@ export default function Contact() {
                                     <span className="text-2xl">📍</span>
                                     <div>
                                         <p className="font-semibold text-white">Location</p>
-                                        <p className="text-zinc-400">123 Market Road, Near City Center, Your City, India</p>
+                                        <p className="text-zinc-400">Maa enterprises Sirdalla, Sirdalla, Bihar 805127</p>
                                     </div>
                                 </div>
                                 <div className="flex items-start space-x-4">
                                     <span className="text-2xl">📞</span>
                                     <div>
                                         <p className="font-semibold text-white">Phone</p>
-                                        <p className="text-zinc-400">+91 98765 43210</p>
+                                        <p className="text-zinc-400">+91 9934077636</p>
                                     </div>
                                 </div>
                                 <div className="flex items-start space-x-4">
                                     <span className="text-2xl">✉️</span>
                                     <div>
                                         <p className="font-semibold text-white">Email</p>
-                                        <p className="text-zinc-400">contact@shankarcement.com</p>
+                                        <p className="text-zinc-400">contact@maaenterprises.com</p>
                                     </div>
                                 </div>
                             </div>

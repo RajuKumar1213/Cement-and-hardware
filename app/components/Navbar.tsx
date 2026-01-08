@@ -8,12 +8,12 @@ export default function Navbar() {
 
     return (
         <nav className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md border-b border-zinc-200">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-between h-20 items-center">
                     {/* Logo */}
                     <div className="flex-shrink-0 flex items-center">
-                        <Link href="/" className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent tracking-tighter hover:scale-105 transition-transform">
-                            Maa<span className="text-orange-600"> Enterprises</span>
+                        <Link href="/" className="flex items-center gap-2 hover:scale-105 transition-transform">
+                            <img src="/images/logo.svg" alt="Maa Enterprises Logo" className="h-12 w-auto" />
                         </Link>
                     </div>
 

@@ -20,16 +20,7 @@ export default function Services() {
             description: "Pipes, fittings, and faucets from reliable manufacturers.",
             icon: "🔧",
         },
-        {
-            title: "Electrical Supplies",
-            description: "Wires, switches, and lighting solutions for safe installations.",
-            icon: "⚡",
-        },
-        {
-            title: "General Tools",
-            description: "Hammers, drills, and essential tools for every construction need.",
-            icon: "🛠️",
-        },
+       
     ];
 
     return (

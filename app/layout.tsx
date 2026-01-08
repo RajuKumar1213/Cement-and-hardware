@@ -11,7 +11,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Maa Enterprises - Hardware and Shankar Cement Center",
+  title: "Maa Enterprises - Hardware and Cement Center",
   description: "Premium quality cement, hardware, and construction materials.",
 };
 
