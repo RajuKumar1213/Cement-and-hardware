@@ -39,7 +39,7 @@ export default function About() {
                             We personally select every product to ensure it meets our high standards of durability and performance.
                         </p>
                         <div className="pt-6 border-t border-zinc-100">
-                            <h3 className="text-xl font-semibold text-zinc-900">Mr. Ranjan</h3>
+                            <h3 className="text-xl font-semibold text-zinc-900">Mr. Rajkumar Ranjan</h3>
                             <p className="text-blue-600">Founder & Owner</p>
                         </div>
                     </div>
